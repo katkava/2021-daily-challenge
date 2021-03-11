@@ -9,3 +9,5 @@ function shortenToDate(longDate) {
   // your code here
   return longDate.split(",").splice(0, 1).toString()
 }
+
+//added comment to check git issue
