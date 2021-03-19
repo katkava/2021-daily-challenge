@@ -15,3 +15,17 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 function stringToArray(string){
   return string.split(' ');
 }
+
+
+//Super duper easy - return error if not number
+
+
+function problem(x){
+let maths = x*50 + 6
+  if (x !== Number(x)){
+    return "Error"
+  }else{
+    return maths
+  }
+ 
+}
