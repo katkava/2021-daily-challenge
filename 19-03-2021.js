@@ -10,3 +10,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here 
  return Math.abs(dadYearsOld - 2 * sonYearsOld)
 }
+
+//return a string as an array 
+function stringToArray(string){
+  return string.split(' ');
+}
