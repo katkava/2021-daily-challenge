@@ -10,7 +10,8 @@ function peopleWithAgeDrink(old) {
     return "drink beer"
   }else {
     return "drink whisky"
-  }
+  } 
+  //check working
 };
 
 
