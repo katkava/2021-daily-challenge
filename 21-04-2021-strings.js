@@ -14,4 +14,7 @@ let sorting = s.sort()
 return sorting[0].split("").join("***")
 }
 
-//4 
+//4 Check if the array contains this element 
+function check(a, x) {
+ return a.includes(x)
+}
