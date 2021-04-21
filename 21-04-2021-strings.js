@@ -7,3 +7,11 @@ function apple(x){
 var TempleStrings = function(obj, feature) {
   return `${obj} are ${feature}`;
 }
+
+//3 Sort and star! Sort by alphabet, return 1 element with *** between each letter 
+function twoSort(s) {
+let sorting = s.sort()
+return sorting[0].split("").join("***")
+}
+
+//4 
