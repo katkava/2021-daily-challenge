@@ -12,4 +12,8 @@ function gooseFilter (birds) {
   return gooseFilter.pop(geese); 
 };
 
-//3) 
+//3) Sort and merge 2 arrays and remove duplicates 
+function mergeArrays(arr1, arr2) {
+ let sorted = arr1.concat(arr2).sort((a, b) => a-b, 0)
+ return [... new Set(sorted)]
+}
