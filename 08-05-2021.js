@@ -19,3 +19,11 @@ function shorter_reverse_longer(a,b){
 function smallEnough(a, limit){
  return  a.every(el => el<limit || el===limit)
 }
+
+
+//3 Check how many developer are in Europe and use JavaScript 
+function countDevelopers(list) {
+  // your awesome code here :) 
+let howMany = list.filter(place => place.continent == "Europe" && place.language == "JavaScript")
+return howMany.length
+}
