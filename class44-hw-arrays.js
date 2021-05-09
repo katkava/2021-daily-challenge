@@ -9,8 +9,7 @@ return array.reduce((a, b) => a*b, 1)
 //Two:
 // You will be given an array of all the family members' ages, in any order. The ages will be given in whole numbers, so a baby of 5 months, will have an ascribed 'age' of 0. Return a new array with [youngest age, oldest age, difference between the youngest and oldest age].
 
-let family = [1, 10, 4, 31, 50]
-let ageDifference = [] 
+
 
 function familyIssues(family){
  let finalArray = []
