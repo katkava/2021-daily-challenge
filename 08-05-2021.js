@@ -38,3 +38,11 @@ function addLength(str) {
 //start-here
 return str.split(" ").map(x => `${x} ${x.length}`)
   }
+
+
+//5  Make a function with the output like this getEvenNumbers([2,4,5,6]) // should == [2,4,6]
+
+function getEvenNumbers(numbersArray){
+  // filter out the odd numbers
+ return  numbersArray.filter(x => x%2==0)
+}
