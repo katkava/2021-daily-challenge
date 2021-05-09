@@ -46,3 +46,9 @@ function getEvenNumbers(numbersArray){
   // filter out the odd numbers
  return  numbersArray.filter(x => x%2==0)
 }
+
+//6 Gravity flip 
+const flip=(d, a)=>{
+  //TODO
+  return d=="R" ? a.sort((a, b) => a-b) : a.sort((a, b) => a-b).reverse();
+}
