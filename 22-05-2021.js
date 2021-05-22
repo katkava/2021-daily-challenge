@@ -11,3 +11,11 @@ function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
   }
   return pontoonDistance/youSpeed < sharkDistance/sharkSpeed ? "Alive!" : "Shark Bait!";
 }
+
+//Number to String
+//this code has a bug, fix it 
+// var a = 123.toString()
+var a = String(123);
+//or
+var a = 123;
+a = a.toString();
