@@ -24,3 +24,9 @@ a = a.toString();
 function joinStrings(string1, string2){
    return `${string1} ${string2}`
 }
+
+//return a string with the names reversed. Example: John McClain => McClain John 
+
+function nameSuffle(str){
+  return str.split(' ').reverse().join(' ')
+}
