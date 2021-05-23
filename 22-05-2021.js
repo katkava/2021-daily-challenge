@@ -19,3 +19,8 @@ var a = String(123);
 //or
 var a = 123;
 a = a.toString();
+
+//Join two strings without concat(), join() or +
+function joinStrings(string1, string2){
+   return `${string1} ${string2}`
+}
