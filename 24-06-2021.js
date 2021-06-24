@@ -6,3 +6,8 @@ function closeCompare(a, b, margin){
   }
   return a > b ? 1 : -1;
 }
+
+//2 debug health 
+function checkAlive(health) {
+  return health > 0;
+}
