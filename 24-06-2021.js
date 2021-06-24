@@ -11,3 +11,11 @@ function closeCompare(a, b, margin){
 function checkAlive(health) {
   return health > 0;
 }
+
+//find subsequent traffic light 
+
+function updateLight(current) {
+  
+  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+}
