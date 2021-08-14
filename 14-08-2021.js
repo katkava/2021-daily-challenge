@@ -1,7 +1,7 @@
 //Reverse an array 
 
 function reverseArray(arr) {
-    for(let i = 0; i < (arr.length -1)/2; i++){
+    for(let i = 0; i < arr.length/2; i++){
       let firstEl = arr[i] //holding 1st element for now
       arr[i] = arr[arr.length-1 -i] //reassigning first value to be last value
       arr[arr.length-1 -i] = firstEl
