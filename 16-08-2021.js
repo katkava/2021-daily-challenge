@@ -12,3 +12,18 @@ function numOfVowels(str) {
     }
     
     console.log(numOfVowels("I am A softWarE enginEEr"), 10)
+
+
+    // Example 2: Using for loop 
+    function numOfVowels(str) {
+        let vowels = "aeiou"
+         let counter = 0
+        for(let i = 0; i < str.length; i++){
+          if(vowels.includes(str[i].toLowerCase()))
+          counter++
+        }
+        
+        return counter
+        }
+        
+        console.log(numOfVowels("I am A softWarE enginEEr"), 10)
